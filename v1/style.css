@@ -1,0 +1,94 @@
+:root {
+  --vardo: #417e83;
+  --dutch-orange: #E0A068;
+  --aurora: #E3634B;
+  --stiffkey: #4D5B6A;
+} 
+
+nav  {
+  display: flex;
+}
+
+
+
+.left-nav {
+  width: 50%;
+}
+
+.logo {
+  width: 170px;
+  height: 45px;
+  margin-left: 30px;
+  padding: 3px;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-nav {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.right-nav > p {
+  margin: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: .8px;
+  font-size: 13.5px;
+  /* color: rgb(99, 168, 189); */
+  margin-top: 15px;
+  color: var(--stiffkey)
+}
+
+.kitchen {
+  background-color: var(--vardo);
+  height:500px;;
+
+  margin-top: 1000px;
+}
+
+.half-image {
+  width: 50%;
+  /* border: 2px solid red; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.half-image > img {
+  width:80%;
+}
+
+
+
+.drawing-room {
+  background-color: var(--aurora);
+  height:500px;
+  display: flex;
+
+}
+
+.block-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actual-text {
+  width: 70%;
+}
+
+.actual-text > p {
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: .8px;
+  line-height: 30px;;
+}
